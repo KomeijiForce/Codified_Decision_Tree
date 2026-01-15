@@ -48,7 +48,7 @@ CDT_Node(character, goal_topic, pairs, built_statements, depth, established_stat
 max_depth, threshold_accept, threshold_reject, threshold_filter)
 ```
 
-Adjustable parameters:
+Parameters:
 - `character`: The name for your character;
 - `goal_topic`: The goal (topic/aspect) you want the CDT to focus on;
 - `pairs`: The training data for your CDT, in the format: `[{"scene": "...", "action": "..."}, {"scene": "...", "action": "..."}, ...]` where `character` takes the `action` in the `scene`;
@@ -61,6 +61,10 @@ Adjustable parameters:
 - `threshold_reject`: The parameter controlling the precision for hypothesis abolishment;
 - `threshold_filter`: The parameter controlling the filtering effect for gate acceptance;
 - `device_id`: The GPU id you want to run the algorithm on.
+
+- **Grounding**
+
+With a constructed `CDT_Node` (e.g., `cdt_tree`), use `cdt_tree.traverse(scene)` to fetch grounding statements on the CDT for the input `scene`.
 
 - **Benchmark CDTs**
 The benchmarking is run by `run_benchmark.sh` on the two benchmarks: [Fine-grained Fandom Benchmark](https://huggingface.co/datasets/KomeijiForce/Fine_Grained_Fandom_Benchmark_Action_Sequences) and [Bandori Conversational Benchmark](https://huggingface.co/datasets/KomeijiForce/Bandori_Conversational_Benchmark_Action_Sequences). The links include the action sequences of main characters in 16 storylines, which are further processed and split by the `load_ar_pairs` function into training and test sets.
