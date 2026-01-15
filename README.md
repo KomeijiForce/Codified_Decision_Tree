@@ -79,6 +79,73 @@ python run_benchmark.py \
   --device_id 1
 ```
 
+- **Wikification**
+
+The example notebook to wikify CDTs into reader-friendly profiles is provided [here](https://github.com/KomeijiForce/Codified_Decision_Tree/blob/main/Wikification.ipynb):
+
+It takes the following parameters as input for wikification with example values:
+
+```
+character = "戸山香澄"
+cdt_id = "Kasumi"
+lang = "Chinese"
+content = f"{character}"
+note = '''
+# Notes
+Kasumi -> 戸山香澄
+Arisa -> 市谷有咲
+Rimi -> 牛込里美
+Tae -> 花园多惠
+Saaya -> 山吹沙绫
+'''
+```
+
+- `character`: The character name you want to use in the wiki page,
+- `cdt_id`: The character name used to build the CDT,
+- `lang`: The language you want for the wiki page,
+- `content`: The preceding content before writing this section,
+- `note`: Other guidance for the wikification.
+
+The wikification result would be like:
+```
+戸山香澄
+
+- 香澄的身份（Kasumi's identity） -
+
+戸山香澄是Poppin'Party乐队的主唱兼吉他手，以其充满活力和感染力的性格著称。她极度重视团队的凝聚力和共同体验，经常在关键时刻强调“大家在一起”的重要性。无论是面对新的挑战、突发状况，还是团队成员之间的讨论，香澄总是以充满情感和表现力的方式回应，经常用夸张或感叹的语气表达自己的惊喜、兴奋或期待。
+
+在团队中，香澄不仅是气氛的带动者，也是情感的纽带。她喜欢用亲昵、热情的语言表达对市谷有咲、牛込里美、花园多惠和山吹沙绫等成员的关心和依赖，尤其在情感高涨或低落的时刻，主动寻求或给予安慰和支持。当团队士气低落或成员对自身价值产生怀疑时，香澄会主动重申每个人在团队中的重要性，并用积极、鼓励的话语强化大家的归属感。
+
+香澄在面对外界反馈或批评时，常常表现出明显的情绪反应，并倾向于寻求队友的肯定和支持。她也会在团队讨论各自角色或贡献时，强调团队的独特性和共同目标，时常用热情洋溢的语言重申Poppin'Party的身份和理想。无论是团队目标受到质疑，还是成员表达不安，香澄都会用坚定和充满活力的态度，带领大家回归初心，强化团队的凝聚力和共同信念。
+
+总的来说，戸山香澄是Poppin'Party不可或缺的核心人物，她以积极、热情和富有感染力的个性，持续影响并维系着团队的团结与共同成长。
+
+- 香澄的性格（Kasumi's Personality） -
+
+戸山香澄以情感外露、积极乐观的性格著称。她在面对各种情绪时，总是毫不掩饰地表达自己的感受，无论是兴奋、惊喜，还是困惑和不安。香澄极度重视团队的凝聚力，喜欢通过主动寻求团队成员的参与和共鸣，营造“大家在一起”的氛围。她在遇到困难或挑战时，常常以坚定的态度重新振作，并积极提出替代方案或新点子，带动团队士气。
+
+香澄在团队互动中，善于用夸张、幽默或戏谑的方式表达自己，尤其在与市谷有咲、牛込里美、花园多惠和山吹沙绫等亲密伙伴相处时，常常展现出俏皮、亲昵的一面。当团队成员感到不安或自我怀疑时，香澄会主动给予鼓励和支持，强调每个人在Poppin'Party中的独特价值，并用热情洋溢的话语强化团队的归属感和共同目标。
+
+面对外界的反馈、批评或玩笑，香澄通常以轻松幽默的态度回应，有时还会用夸张的表情或言语化解尴尬，进一步拉近与队友的距离。她善于通过自发、显著的情感反应影响团队氛围，无论是用戏剧化的表现吸引注意，还是用积极的行动带动大家前进。
+
+总的来说，戸山香澄是团队中不可或缺的情感核心，她以真挚、热情和富有感染力的个性，持续激励并团结着Poppin'Party的每一位成员。
+
+- 香澄的能力（Kasumi's Ability） -
+...
+- 香澄的人际关系（Kasumi's Relationship） -
+...
+- 戸山香澄与牛込里美的互动（Kasumi's interaction with Rimi） -
+...
+- 戸山香澄与花园多惠的互动（Kasumi's interaction with Tae） -
+...
+- 戸山香澄与山吹沙绫的互动（Kasumi's interaction with Saaya） -
+...
+- 戸山香澄与市谷有咲的互动（Kasumi's interaction with Arisa） -
+...
+```
+
+Full wikified content can be found [here](https://github.com/KomeijiForce/Codified_Decision_Tree/blob/main/profiles/%E6%88%B8%E5%B1%B1%E9%A6%99%E6%BE%84.wikified.profile.txt)
+
 ## Benchmark Results
 <img width="2591" height="1063" alt="image" src="https://github.com/user-attachments/assets/eaa223e0-4e57-4bcf-a44f-62d652b04509" />
 
