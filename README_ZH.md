@@ -100,9 +100,9 @@ python run_benchmark.py \
   --device_id 1
 ```
 
-* **Wikification（WIKI 化 / 画像生成）**
+* **Wikification（WIKI 化）**
 
-我们提供了一个示例 notebook，用于将 CDT 转换为更易读的 wiki 风格角色画像，见此处：
+我们提供了一个示例 notebook，用于将 CDT 转换为更易读的 wiki 风格角色百科，见此处：
 [Wikification.ipynb](https://github.com/KomeijiForce/Codified_Decision_Tree/blob/main/Wikification.ipynb)
 
 该 notebook 会接收以下参数作为输入（下方给出示例值）：
@@ -185,7 +185,3 @@ wikification 的输出结果会类似于：
   year={2026}
 }
 ```
-
----
-
-如果你还希望我把这份中文翻译做成一个“可以直接替换 README 的版本”（比如保留原英文、中文在下一行，做成双语 README），我也可以继续帮你排版。
