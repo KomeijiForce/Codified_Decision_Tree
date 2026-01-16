@@ -1,4 +1,4 @@
-# Codified Decision Tree (CDT)
+# Codified Decision Tree (CDT) [\<Link to Paper\>](https://arxiv.org/pdf/2601.10080)
 **An algorithm to derive deep, validated, structured character behaviors from given storylines.**
 
 <img width="1451" height="774" alt="image" src="https://github.com/user-attachments/assets/d12431f8-c91f-4551-92ee-213fc75e97c6" />
