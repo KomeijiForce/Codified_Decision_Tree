@@ -83,6 +83,8 @@ python run_benchmark.py \
 
 - **Wikification**
 
+**[TODO]** An end-to-end CDT profiling pipeline will soon be released!
+
 The example notebook to wikify CDTs into reader-friendly profiles is provided [here](https://github.com/KomeijiForce/Codified_Decision_Tree/blob/main/Wikification.ipynb):
 
 It takes the following parameters as input for wikification with example values:
