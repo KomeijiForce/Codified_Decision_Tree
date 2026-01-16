@@ -161,6 +161,7 @@ Full wikified content can be found [here](https://github.com/KomeijiForce/Codifi
 @article{codified_profile,
   title={Codifying Character Logic in Role-Playing},
   author={Letian Peng, Kun Zhou, Longfei Yun, Yupeng Hou, and Jingbo Shang},
+  journal={arXiv preprint arXiv:2601.10080},
   year={2026}
 }
 ```
