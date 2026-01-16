@@ -151,8 +151,7 @@ The wikification result would be like:
 Full wikified content can be found [here](https://github.com/KomeijiForce/Codified_Decision_Tree/blob/main/profiles/%E6%88%B8%E5%B1%B1%E9%A6%99%E6%BE%84.wikified.profile.txt)
 
 ## Benchmark Results
-<img width="2591" height="1063" alt="image" src="https://github.com/user-attachments/assets/eaa223e0-4e57-4bcf-a44f-62d652b04509" />
-
+<img width="1024" height="448" alt="image" src="https://github.com/user-attachments/assets/c16bcce1-9645-4981-bb66-d758bc5ab0a1" />
 
 <img width="2560" height="1088" alt="image" src="https://github.com/user-attachments/assets/72e6d8f0-c231-4034-978f-74e8fa316f7d" />
 
