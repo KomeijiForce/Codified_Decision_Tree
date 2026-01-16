@@ -10,7 +10,7 @@ This repo includes:
 - Benchmarking: The performance of CDT-driven Role-playing
 - Automatic profiling: Conversion script from CDT to reader-friendly wiki texts.
 
-[[中文版README]](https://github.com/KomeijiForce/Codified_Decision_Tree/blob/main/README_ZH.md)
+[[中文版README]](https://github.com/KomeijiForce/Codified_Decision_Tree/blob/main/README_ZH.md) [[日本語README]](https://github.com/KomeijiForce/Codified_Decision_Tree/blob/main/README_JA.md)
 
 ## How to use?
 - **Initialization**
