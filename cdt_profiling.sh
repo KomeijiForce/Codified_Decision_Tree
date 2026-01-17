@@ -5,6 +5,7 @@ python cdt_profiling.py \
   --profiling_character Yui \
   --main_characters Yui Ritsu Mio Mugi Azusa \
   --topics identity personality ability relationship \
+  --note "Yui -> 平泽唯; Ritsu -> 田井中律; Mio -> 秋山澪; Mugi -> 琴吹䌷; Azusa -> 中野梓" \
   --storyline_path storylines/kon.storyline.part.txt \
   --output_path profiles/Yui.wikified.profile.txt \
   --device_id 1
