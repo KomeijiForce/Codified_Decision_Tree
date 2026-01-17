@@ -8,7 +8,10 @@
 This repo includes:
 - Algorithm implementation: Constructing **Codified Decision Trees** based on scene-action pairs of characters
 - Benchmarking: The performance of CDT-driven Role-playing
-- Automatic profiling: Conversion script from CDT **or raw storyline** to reader-friendly wiki texts.
+- Automatic profiling: Conversion script from CDT to reader-friendly wiki texts.
+
+**Updates**:
+We add a script to profile characters based on the raw text of the storyline.
 
 [[中文版README]](https://github.com/KomeijiForce/Codified_Decision_Tree/blob/main/README_ZH.md) [[日本語README]](https://github.com/KomeijiForce/Codified_Decision_Tree/blob/main/README_JA.md)
 
