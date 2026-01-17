@@ -8,7 +8,7 @@
 This repo includes:
 - Algorithm implementation: Constructing **Codified Decision Trees** based on scene-action pairs of characters
 - Benchmarking: The performance of CDT-driven Role-playing
-- Automatic profiling: Conversion script from CDT to reader-friendly wiki texts.
+- Automatic profiling: Conversion script from CDT **or raw storyline** to reader-friendly wiki texts.
 
 [[中文版README]](https://github.com/KomeijiForce/Codified_Decision_Tree/blob/main/README_ZH.md) [[日本語README]](https://github.com/KomeijiForce/Codified_Decision_Tree/blob/main/README_JA.md)
 
@@ -83,8 +83,6 @@ python run_benchmark.py \
 
 - **Wikification**
 
-**[TODO]** An end-to-end CDT profiling pipeline will soon be released!
-
 The example notebook to wikify CDTs into reader-friendly profiles is provided [here](https://github.com/KomeijiForce/Codified_Decision_Tree/blob/main/Wikification.ipynb):
 
 It takes the following parameters as input for wikification with example values:
@@ -149,6 +147,30 @@ The wikification result would be like:
 ```
 
 Full wikified content can be found [here](https://github.com/KomeijiForce/Codified_Decision_Tree/blob/main/profiles/%E6%88%B8%E5%B1%B1%E9%A6%99%E6%BE%84.wikified.profile.txt)
+
+- **End-to-end Wikification**
+
+You can use the provided script `cdt_profiling.sh` to derive CDT-based profile.
+
+```sh
+python profile.py \
+  --character_wiki_name 平泽唯 \
+  --lang Chinese \
+  --profiling_character Yui \
+  --main_characters Yui Ritsu Mio Mugi Azusa \
+  --note "Yui -> 平泽唯; Ritsu -> 田井中律; Mio -> 秋山澪; Mugi -> 琴吹䌷; Azusa -> 中野梓" \
+  --storyline_path storylines/kon.storyline.part.txt \
+  --output_path profiles/Yui.wikified.profile.txt \
+  --device_id 1
+```
+- `character_wiki_name`: The character name appears in the wiki,
+- `lang`: The wiki page language,
+- `profiling_character`: The character name in the input storyline for wiki building,
+- `main_characters`:The main characters' names in the input storyline,
+- `note`: Other guidance for the wikification.
+- `storyline_path`: The input file path for the raw storyline text.
+- `output_path`: The output file path for the wiki page.
+- `device_id`: GPU id for codification.
 
 ## Benchmark Results
 <img width="1024" height="448" alt="image" src="https://github.com/user-attachments/assets/c16bcce1-9645-4981-bb66-d758bc5ab0a1" />
