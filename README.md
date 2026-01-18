@@ -11,7 +11,7 @@ This repo includes:
 - Automatic profiling: Conversion script from CDT to reader-friendly wiki texts.
 
 **Updates**:
-We add a script to profile characters based on the raw text of the storyline.
+We add a script to profile characters based on the raw text of the storyline. (Can be run on an 8B device)
 
 [[中文版README]](https://github.com/KomeijiForce/Codified_Decision_Tree/blob/main/README_ZH.md) [[日本語README]](https://github.com/KomeijiForce/Codified_Decision_Tree/blob/main/README_JA.md)
 
