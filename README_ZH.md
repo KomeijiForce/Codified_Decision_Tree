@@ -179,9 +179,10 @@ wikification 的输出结果会类似于：
 ## 引用
 
 ```bibtex
-@article{codified_profile,
-  title={Codifying Character Logic in Role-Playing},
+@article{codified_decision_tree,
+  title={Deriving Character Logic from Storyline as Codified Decision Trees},
   author={Letian Peng, Kun Zhou, Longfei Yun, Yupeng Hou, and Jingbo Shang},
+  journal={arXiv preprint arXiv:2601.10080},
   year={2026}
 }
 ```
